@@ -253,7 +253,7 @@ public:
 	}
 
 	void maze_start() {
-		road_make(mazeStart.first, mazeStart.end);
+		road_make(mazeStart.first, mazeStart.second);
 		maze_print();
 	}
 };
